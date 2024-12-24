@@ -2,6 +2,10 @@
 
 Este projeto apresenta um site responsivo com o tema **Jogos do PlayStation One**, destacando capas icônicas e links para vídeos relacionados. O objetivo é criar uma página atraente e funcional, utilizando HTML e CSS para estruturação e estilização.
 
+## Vídeo
+[Assista ao vídeo do projeto](https://youtu.be/o-CO7LN8TXE)
+
+
 ## Tecnologias Utilizadas
 
 - **HTML5**: Para estruturação do conteúdo.
