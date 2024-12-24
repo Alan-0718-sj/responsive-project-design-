@@ -1,0 +1,104 @@
+/* Estilo base - Visualização móvel */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f7f3f3;
+}
+
+main {
+    padding: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    color: #000;
+    font-size: 70px;
+}
+
+.f-rodape{
+    color: #f7f3f3;
+}
+
+/* Visualização tablet */
+@media (min-width: 600px) and (max-width: 899px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    figure img {
+        border-radius: 50%;
+    }
+
+    .grid figure:last-child {
+        grid-column: span 2;
+    }
+}
+
+/* Visualização desktop */
+@media (min-width: 992px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+
+    .grid figure:nth-child(3n) {
+        grid-column: span 2;
+    }
+
+    figure img {
+        border-radius: 0;
+    }
+}
+
+/* Preferências de movimento reduzido */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+/* Esquema de cores escuro */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #222;
+        color: #eee;
+    }
+
+    figure img {
+        background-color: #333;
+        border: 2px solid #000;
+    }
+
+    figcaption {
+        color: #f1c40f;
+    }
+}
