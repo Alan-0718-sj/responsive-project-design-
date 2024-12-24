@@ -12,7 +12,7 @@ Este projeto apresenta um site responsivo com o tema **Jogos do PlayStation One*
 
 - **`index.html`**: Arquivo principal com o conteúdo da página.
 - **`responsiveSite.css`**: Arquivo CSS principal para estilização do site.
-- **`responsiveSiteTitle.css`**: Arquivo CSS específico para a estilização do título.
+- **`responsiveSiteTitle.css`**: Arquivo CSS específico para a estilização do título - Em desenvolvimento.
 - **`0101.png`**: Ícone do site.
 
 ## Funcionalidades
@@ -45,4 +45,4 @@ Inclui os créditos e um link para o repositório GitHub do autor.
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/Alan-0718-sj/Responsive-Final-Project.git
+   git clone https://github.com/Alan-0718-sj/responsive-project-design-.git
